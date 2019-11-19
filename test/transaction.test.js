@@ -7,7 +7,7 @@
 require('./init.js');
 require('should');
 
-var Transaction = require('loopback-connector').Transaction;
+var Transaction = require('loopback-connector-pruvo').Transaction;
 
 var db, Post;
 
